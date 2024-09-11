@@ -1,0 +1,140 @@
+aid: apis-io-engineering-platform
+name: APIs.io Engineering Platform
+type: Platform
+description: |-
+  This is an index of all of the infrastructure and services used to operate the engineering side of APIs.io, providing a single manifest of all the 3rd-party suppliers we depend on for digital resources and capabilities.
+tags:
+  - APIs.io
+  - Engineering
+  - Platform
+created: '2024-09-06'
+modified: '2024-09-06'
+url: http://example.com/apis.json
+specificationVersion: '0.18'
+apis:
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: Amazon S3
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: AWS Lambda
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation    
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: AWS API Gateway
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation       
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: AWS RDS
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation    
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: AWS IAM
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation  
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: Microsoft Bing Search
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation 
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: Postman
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation    
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: Cloudflare
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: GitHub
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation     
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: VSCode
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation   
+
+- aid: apis-io-engineering-platform:amazon-s3
+  name: EasyCron
+  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  humanURL: http://example.com
+  baseURL: http://api.example.com
+  tags:
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://example.com/documentation                                     
+
+maintainers:
+- FN: Kin Lane
+  X-twitter: apievangelist
+  email: info@apievangelist.com
