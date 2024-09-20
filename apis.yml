@@ -16,15 +16,24 @@ apis:
 - aid: apis-io-engineering-platform:amazon-s3
   name: Amazon S3
   description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
+  humanURL: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
+  baseURL: https://{bucketname}.s3.amazonaws.com
   tags:
-  - Storage
+    - Storage
+    - Cloud
   properties:
+  
   - type: Documentation
-    url: https://example.com/documentation
+    url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
 
-- aid: apis-io-engineering-platform:amazon-s3
+  - type: OpenAPI
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1ab188a6-cc1f-490d-9413-9c6da20918d0?action=share&creator=35240  
+
+  - type: PostmanCollection
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1ab188a6-cc1f-490d-9413-9c6da20918d0?action=share&creator=35240                                
+
+
+- aid: apis-io-engineering-platform:aws-lambda
   name: AWS Lambda
   description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
   humanURL: http://example.com
@@ -131,8 +140,16 @@ apis:
   tags:
   - Storage
   properties:
+
   - type: Documentation
-    url: https://example.com/documentation                                     
+    url: https://example.com/documentation     
+
+common:
+
+  # Workspaces
+  - type: PostmanPublicWorkspace
+    url: https://www.postman.com/api-evangelist/workspace/apis-io/overview        
+
 
 maintainers:
 - FN: Kin Lane
