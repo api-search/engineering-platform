@@ -178,65 +178,106 @@ apis:
 
 - aid: apis-io-engineering-platform:postman
   name: Postman
-  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
+  description: Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+  humanURL: https://www.postman.com
   baseURL: http://api.example.com
   tags:
   - Storage
   properties:
-  - type: Documentation
-    url: https://example.com/documentation    
 
-- aid: apis-io-engineering-platform:aws-s3
+  - type: Documentation
+    url: https://example.com/documentation 
+
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/postman-openapi-original.yml
+
+  - type: PostmanCollection
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-4d5957dc-df05-4216-a5fc-d46b3ba811d8?action=share&creator=35240
+
+- aid: apis-io-engineering-platform:cloudflare
   name: Cloudflare
-  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
+  description: Cloudflare, Inc. is an American company that provides content delivery network services, cloud cybersecurity, DDoS mitigation, wide area network services, reverse proxies, Domain Name Service, and ICANN-accredited domain registration services. 
+  humanURL: https://developers.cloudflare.com/
+  baseURL: https://api.cloudflare.com/
   tags:
-  - Storage
+    - DNS
   properties:
-  - type: Documentation
-    url: https://example.com/documentation
 
-- aid: apis-io-engineering-platform:aws-s3
+  - type: Documentation
+    url: https://developers.cloudflare.com/api/
+
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/cloudflare-openapi-original.yml
+
+  - type: PostmanCollection
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-28d97617-fdba-46a5-ac3e-40f3d2e0fa57?action=share&creator=35240   
+
+- aid: apis-io-engineering-platform:github
   name: GitHub
-  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
+  description: GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. 
+  humanURL: https://docs.github.com/en
+  baseURL:  https://api.github.com
   tags:
-  - Storage
+  - Source Control
+  - Pipelines
   properties:
-  - type: Documentation
-    url: https://example.com/documentation     
 
-- aid: apis-io-engineering-platform:aws-s3
-  name: VSCode
-  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
-  tags:
-  - Storage
-  properties:
   - type: Documentation
-    url: https://example.com/documentation   
+    url: https://docs.github.com/en/rest 
+
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/github-openapi-original.yml
+
+  - type: PostmanCollection
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-7429b451-d812-4abc-b497-b763372cf5c5?action=share&creator=35240
+
+  - type: PostmanCapability
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-b0eafdd0-adaa-48a2-a855-6a31beb86d83?action=share&creator=35240
+
+  - type: PostmanCapability
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-209f34ef-13c1-400c-bca8-fcddb304aff5?action=share&creator=35240
+
+  - type: PostmanCapability
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-fb2bbbb8-d4cc-48b1-a660-c8e158bfbbea?action=share&creator=35240
+
+- aid: apis-io-engineering-platform:vscode
+  name: VSCode
+  description: Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+  humanURL: https://code.visualstudio.com/
+  tags:
+    - IDE
+  properties:
+
+    - type: Documentation
+      url: https://code.visualstudio.com/api/references/vscode-api  
 
 - aid: apis-io-engineering-platform:aws-s3
   name: EasyCron
   description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
+  humanURL: https://developer.easycron.com/
+  baseURL: https://api.easycron.com
   tags:
-  - Storage
+  - CRON
+  - Jobs
+  - Scheduling
   properties:
 
   - type: Documentation
-    url: https://example.com/documentation     
+    url: https://developer.easycron.com/docs/api/v1/introduction    
 
 common:
 
   # Workspaces
   - type: PostmanPublicWorkspace
-    url: https://www.postman.com/api-evangelist/workspace/apis-io/overview        
+    url: https://www.postman.com/api-evangelist/workspace/apis-io/overview    
+
+  # GitHub Organization
+  - type: GitHubOrganization
+    url: https://github.com/api-search
+
+  # Developer Portal
+  - type: Portals
+    url: https://developer.apis.io/            
 
 
 maintainers:
