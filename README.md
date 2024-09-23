@@ -99,7 +99,7 @@ Visual Studio Code, also commonly referred to as VS Code, is an integrated devel
 
   - [Documentation](https://code.visualstudio.com/api/references/vscode-api)
 ## EasyCron (easycron)
-Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+EasyCron is used to run automated tasks, making API calls on a variety of schedules, using all of the APIs produced and consumed.
 
 ### Links
 

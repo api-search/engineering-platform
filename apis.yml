@@ -253,7 +253,7 @@ apis:
 
 - aid: apis-io-engineering-platform:aws-s3
   name: EasyCron
-  description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
+  description: EasyCron is used to run automated tasks, making API calls on a variety of schedules, using all of the APIs produced and consumed.
   humanURL: https://developer.easycron.com/
   baseURL: https://api.easycron.com
   tags:
