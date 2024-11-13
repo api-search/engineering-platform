@@ -1,6 +1,8 @@
 aid: apis-io-engineering-platform
 name: APIs.io Engineering Platform
 type: Platform
+position: Producer
+access: Internal
 description: |-
   This is an index of all of the infrastructure and services used to operate the engineering side of APIs.io, providing a single manifest of all the 3rd-party suppliers we depend on for digital resources and capabilities.<br><br>The goal of this engineering platform definition is to define the platform in a way that can be federated and distributed as part of API operations, helping educate teams where they can access platform resources.
 tags:
